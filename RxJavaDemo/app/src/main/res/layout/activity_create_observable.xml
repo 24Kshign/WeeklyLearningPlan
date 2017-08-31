@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/aco_btn_rxjava_simple_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用create()创建Observable" />
+
+        <Button
+            android:id="@+id/aco_btn_rxjava_just"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用just()创建Observable" />
+
+        <Button
+            android:id="@+id/aco_btn_rxjava_fromIterable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用fromIterable()创建Observable" />
+
+        <Button
+            android:id="@+id/aco_btn_rxjava_interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用interval()创建Observable" />
+
+        <Button
+            android:id="@+id/aco_btn_rxjava_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用range()创建Observable" />
+
+    </LinearLayout>
+
+</ScrollView>

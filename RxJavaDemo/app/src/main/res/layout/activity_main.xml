@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/am_btn_create_observable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Observable" />
+
+    <Button
+        android:id="@+id/am_btn_operator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operator" />
+
+    <Button
+        android:id="@+id/am_btn_schedulers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedulers" />
+
+
+</LinearLayout>

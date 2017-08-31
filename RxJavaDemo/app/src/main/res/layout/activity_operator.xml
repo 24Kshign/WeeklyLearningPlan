@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ao_btn_operator_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="map()操作符" />
+
+        <Button
+            android:id="@+id/ao_btn_operator_flatmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="flatMap()操作符" />
+
+        <Button
+            android:id="@+id/ao_btn_operator_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="filter()操作符" />
+
+        <Button
+            android:id="@+id/ao_btn_operator_take"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="take()操作符" />
+
+        <Button
+            android:id="@+id/ao_btn_operator_doonnext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="doOnNext()操作符" />
+
+        <Button
+            android:id="@+id/ao_btn_operator_distinct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="distinct()操作符" />
+
+        <Button
+            android:id="@+id/ao_btn_operator_merge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="merge()操作符" />
+
+        <Button
+            android:id="@+id/ao_btn_operator_delay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delay()操作符" />
+
+        <Button
+            android:id="@+id/ao_btn_operator_reduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="reduce()操作符" />
+    </LinearLayout>
+
+</ScrollView>

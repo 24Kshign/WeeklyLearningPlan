@@ -1,0 +1,6 @@
+gradle.ext.compileSdkVersion = 25
+gradle.ext.buildToolsVersion = "25.0.2"
+gradle.ext.minSdkVersion = 15
+gradle.ext.targetSdkVersion = 23
+
+include ':app'
