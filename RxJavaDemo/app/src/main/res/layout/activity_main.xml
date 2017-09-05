@@ -23,5 +23,10 @@
         android:layout_height="wrap_content"
         android:text="Schedulers" />
 
+    <Button
+        android:id="@+id/am_btn_flowable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flowable" />
 
 </LinearLayout>

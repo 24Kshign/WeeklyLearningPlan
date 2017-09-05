@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.am_btn_create_observable, R.id.am_btn_operator, R.id.am_btn_schedulers})
+    @OnClick({R.id.am_btn_create_observable, R.id.am_btn_operator, R.id.am_btn_schedulers, R.id.am_btn_flowable})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.am_btn_create_observable:
@@ -33,6 +33,9 @@ public class MainActivity extends Activity {
                 break;
             case R.id.am_btn_schedulers:
                 startActivity(new Intent(this, SchedulersActivity.class));
+                break;
+            case R.id.am_btn_flowable:
+                startActivity(new Intent(this, FlowableActivity.class));
                 break;
         }
     }
