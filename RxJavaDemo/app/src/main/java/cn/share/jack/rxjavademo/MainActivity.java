@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(this, OperatorActivity.class));
                 break;
             case R.id.am_btn_schedulers:
-
+                startActivity(new Intent(this, SchedulersActivity.class));
                 break;
         }
     }

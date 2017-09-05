@@ -29,6 +29,10 @@
             android:name=".OperatorActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".SchedulersActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

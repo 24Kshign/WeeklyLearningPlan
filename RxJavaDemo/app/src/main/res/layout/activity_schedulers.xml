@@ -10,10 +10,22 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/as_btn_switch_io_thread"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Io Thread" />
 
+        <Button
+            android:id="@+id/as_btn_switch_main_thread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Thread" />
 
+        <Button
+            android:id="@+id/as_btn_switch_new_thread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Thread" />
 
     </LinearLayout>
 
